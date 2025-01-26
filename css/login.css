@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../css/font/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: poppins1;
+    src: url(../css/font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppins3;
+    src: url(../css/font/Poppins-ExtraLight.ttf);
+}
+.section_login{
+    background: linear-gradient(to right, deeppink, pink);
+    padding: 3vw;
+    position: relative;
+}
+.box1_login{
+    background:#fda9d671;
+    width: 32vw;
+    margin: 0vw auto;
+    border-radius:.5vw;
+    padding: 3vw;
+}
+.login{
+    margin: 0vw auto;
+    width: 23vw;
+    color: white;
+    text-align: center;
+}
+.login h2{
+    font-family: poppins;
+    text-transform: uppercase;
+}
+.span_h2_login{
+    font-family: poppins1;
+    font-size: 1vw;
+    font-size: .8vw;
+}
+.input_login{
+    padding: 0.5vw;
+    border-radius:.2vw;
+    background:rgba(255, 255, 255, 0.579);
+    font-weight: bold;
+    font-size: 1vw;
+    border: none;
+    color: white;
+}
+.form_login{
+}
+.form_login label{
+    font-family: poppins1;
+    font-size:.9vw;
+}
+.se_souvenir{
+    font-family: poppins1;
+    font-size:.9vw;
+}
+.checkbox_souvenir{
+    display: flex;
+    justify-content: start;
+    width: 18vw;
+}
+.lab1{
+    text-align: left;
+}
+.lab1 input{
+    text-align: left;
+    width: 100%;
+}
+.btn_login, .with_google{
+    background: deeppink;
+    padding: 0.5vw;
+    color: white;
+    border-radius:.2vw;
+    font-family: poppins1;
+    border: none;
+    font-size: 1vw;
+}
+.mdp_forgot, .miss_count{
+    font-size: .8vw;
+    font-family: poppins1;
+    text-align-last: left;
+}
+.clic_ici, .s_inscrire a{
+    color: deeppink;
+}
+/* .s_inscrire:hover a{
+    color: blue;
+
+} */
+.other_way h5{
+    font-family: poppins;
+    color: white;
+}
+.rond{
+    margin: 0vw auto;
+    width: 22vw;
+    height: 22vw;
+    border-radius:50%;
+    background: #00000012;
+    border: solid .2vw #80808000;
+    box-shadow: 0vw 0vw .6vw black;
+    position: absolute;
+    left: 13vw;
+    bottom: 0vw;
+}
+.rond1{
+    margin: 0vw auto;
+    width: 8vw;
+    height: 8vw;
+    border-radius:50%;
+    background: #00000012;
+    border: solid .2vw #80808000;
+    box-shadow: 0vw 0vw .5vw black;
+    position: absolute;
+    left: 23vw;
+    bottom: 20vw;
+}
+.rond2{
+    margin: 0vw auto;
+    width: 14vw;
+    height: 14vw;
+    border-radius:50%;
+    background: #00000012;
+    border: solid .2vw #80808000;
+    box-shadow: 0vw 0vw .5vw black;
+    position: absolute;
+    right:10vw;
+    top: 16vw;
+}
+

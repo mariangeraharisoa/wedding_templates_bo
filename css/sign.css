@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../css/font/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: poppins1;
+    src: url(../css/font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppins3;
+    src: url(../css/font/Poppins-ExtraLight.ttf);
+}
+.section_login{
+    background: linear-gradient(to right, deeppink, deeppink, pink);
+    padding: 4vw;
+    position: relative;
+}
+.box1_login{
+    background:#fda9d671;
+    width: 48vw;
+    margin: 0vw auto;
+    border-radius: .5vw;
+    padding: 3vw;
+}
+.login{
+    margin: 0vw auto;
+    width: 37vw;
+    color: rgba(255, 255, 255, 0.822);
+    font-family: poppins1;
+    font-size:.9vw;
+}
+.in_head{
+    text-align: center;
+    padding-bottom:2vw;
+}
+.login h2{
+    font-family: poppins;
+    text-transform: uppercase;
+    font-size: 1.5vw;
+}
+.span_h2_login{
+    font-family: poppins1;
+    font-size: 1vw;
+    font-size: .8vw;
+}
+.form_login_input1{
+    display: flex;
+    justify-content: space-between;
+}
+.lab1 .input_login{
+    padding: 0.5vw;
+    border-radius: .2vw;
+    border: none;
+    width: 18vw;
+    background:rgba(255, 255, 255, 0.483);
+    font-weight: bold;
+    font-size: 1vw;
+    color: white;
+}
+.input_confirm{
+    width: 11vw;
+    display: flex;
+    justify-content: space-between;
+}
+.receive_code{
+    font-size: .8vw;
+}
+.input_confirm input{
+    width: 2.5vw;
+    padding: 0.3vw;
+    border-radius:.2vw;
+    border: none;
+    background:rgba(255, 255, 255, 0.483);
+}
+.box_confirmation{
+    display: flex;
+    justify-content: space-between;
+}
+.font_camera{
+    width: 16vw;
+    text-align: center;
+}
+.i_camera{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background:deeppink;
+    margin: 0vw auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.font_camera .fa-camera{
+    font-size: 2vw;
+}
+.btn_generer_code, .btn_inscrire-login{
+    background: deeppink;
+    padding: 0.5vw;
+    color: white;
+    border-radius:.3vw;
+    font-family: poppins1;
+    border: none;
+    font-size: 1vw;
+}
+.non_inscrit{
+    text-align: center;
+    padding: 2vw;
+}
+.btn_login, .with_google{
+    background: deeppink;
+    padding: 0.5vw;
+    color: white;
+    border-radius:.2vw;
+    font-family: poppins1;
+    border: none;
+    font-size: 1vw;
+}
+.mdp_forgot, .miss_count{
+    font-size: .8vw;
+    font-family: poppins1;
+    text-align-last: left;
+}
+.clic_ici, .s_inscrire{
+    color: deeppink;
+}
+.other_way {
+    text-align: center;
+}
+.other_way h5{
+    font-family: poppins;
+    color: white;
+}
+
+.rond{
+    margin: 0vw auto;
+    width: 22vw;
+    height: 22vw;
+    border-radius:50%;
+    background: #00000012;
+    border: solid .2vw #80808000;
+    box-shadow: 0vw 0vw .6vw black;
+    position: absolute;
+    left: 10vw;
+    bottom: 0vw;
+}
+.rond1{
+    margin: 0vw auto;
+    width: 8vw;
+    height: 8vw;
+    border-radius:50%;
+    background: #00000012;
+    border: solid .2vw #80808000;
+    box-shadow: 0vw 0vw .5vw black;
+    position: absolute;
+    left: 21vw;
+    bottom: 20vw;
+}
+.rond2{
+    margin: 0vw auto;
+    width: 14vw;
+    height: 14vw;
+    border-radius:50%;
+    background: #00000012;
+    border: solid .2vw #80808000;
+    box-shadow: 0vw 0vw .5vw black;
+    position: absolute;
+    right:14vw;
+    top: 21vw;
+}
+

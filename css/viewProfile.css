@@ -1,0 +1,186 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../css/font/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: poppins1;
+    src: url(../css/font/Poppins-Regular.ttf);
+}
+.section_view_profile{
+
+}
+.fizarana1{
+    width: 90vw;
+    margin: 0vw auto;
+    display: flex;
+    padding-bottom: 1.5vw;
+    justify-content: space-between;
+    font-family: poppins1;
+    font-size: 1vw;
+}
+.episode1{
+    width: 41vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sary1{
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
+    position: relative;
+
+}
+.sary1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.teboka{
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background: deeppink;
+    position: absolute;
+    bottom: 1vw;
+    right: 2vw;
+}
+.about_profil h5{
+    font-family: poppins;
+    font-size: 1.5vw;
+}
+.fa-envelope, .fa-phone, .fa-map-marker-alt, .fa-comment-alt{
+    font-size: 1.5vw;
+    -webkit-text-stroke: 1px grey;
+    text-shadow: 0vw 0vw .2vw black;
+    color: white;
+}
+.fa-envelope:hover, .fa-phone:hover, .fa-map-marker-alt:hover, .fa-comment-alt:hover, .fa-ellipsis-h:hover{
+    transform: scale(1.2);
+}
+.demande_prestation{
+    margin-top: 3vw;
+    width: 22vw;
+    display: flex;
+    justify-content: space-between;
+}
+.btn_prestation{
+    padding: 0.5vw;
+    color: deeppink;
+    border-radius:.3vw;
+    font-family: poppins1;
+    border: solid .1vw deeppink;
+    font-size: 1vw;
+}
+.tag{
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50vw;
+    padding: .2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid .1vw grey;
+}
+.fizarana2{
+    width: 90vw;
+    margin: 0vw auto;
+    justify-content: space-between;
+    display: flex;
+}
+.episode3{
+    background: #f6f3f3;
+    width: 22vw;
+    height: 10vw;
+    padding: 2vw;
+    box-shadow: 0vw 0vw .5vw black;
+    border-radius: .5vw;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: poppins1;
+}
+.episode3:hover{
+    transform: scale(1.1);
+    color: deeppink;
+    box-shadow: 0vw 0vw .5vw deeppink;
+
+}
+.font_user{
+    background:#348ec1;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+.episode3:nth-child(2) .font_user{
+    background:#5af456;
+}
+.episode3:nth-child(3) .font_user{
+    background:#f85151;
+}
+.episode3:nth-child(4) .font_user{
+    background:#fb5eb3;
+}
+ .fa-user{
+    font-size: 1.5vw;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+.about_price{
+
+}
+.about_price .span_about_price{
+
+}
+.about_price h3{
+    font-family: poppins;
+}
+/* fizarana3 */
+.fizarana3{
+}
+.big_step1{
+    width: 90vw;
+    margin: 0vw auto;
+}
+@font-face {
+    font-family: poppins2;
+    src: url(../css/font/Poppins-Medium.ttf);
+}
+.big_step1 h5{
+    font-family: poppins1;
+    text-transform: uppercase;
+    width: 76vw;
+    margin: 2vw auto;
+}
+
+.essential_step1{
+   width: 85vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.step2{
+    width: 6vw;
+    height:16vw;
+    font-family: poppins1;
+}
+.step2 img{
+    width: 80%;
+    height: 10vw;
+    font-family: poppins1;
+    object-fit: cover;
+}
+.slid9{
+    padding: 2vw;
+}

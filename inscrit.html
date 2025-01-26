@@ -1,0 +1,582 @@
+<?php
+        require "./functions/function.php";
+        $data_accueil =  get_accueil();
+        // var_dump($data_accueil);       
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscrit</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil non inscrit</title>
+    <link rel="stylesheet" href="./css/inscrit.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./AOS/aos.css">
+</head>
+<body>
+    <header>
+        <div class="head_box">
+                <div class="logo">
+                    <h2><i class="fa fa-infinity">wedding</i></h2>
+                </div>
+            <div class="nav_bar">
+                    <nav> 
+                        <ul>
+                            <a href="../html/inscrit.html"><li class="link_home">Accueil</li></a>
+                            <a href=""><li>A propos</li></a>
+                            <a href=""><li>Services</li></a>
+                            <a href=""><li>Blog</li></a>
+                            <a href=""><li>Contact</li></a>
+                        </ul>
+                    </nav>
+                </div>
+            <div class="home_connected">
+                <div class="bell">
+                    <div class="bell1">
+                        <i class="fa fa-bell"></i>
+                    </div>
+                    <div class="litle_point"></div>
+                </div>
+                <div class="pdf">
+                    <img src="./images/fille.JPG" alt="">
+                    <div class="litle_point_pdf"></div>
+                </div>
+                <div class="tasks">
+                    <i class="fa fa-tasks"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- menu -->
+        <div class="user_menu">
+            <div class="pdf_user">
+                <div class="user_profil">
+                    <img src="./images/pdf" alt="">
+                    <div class="dot"></div>
+                </div>
+                <h6>RAHANTA Lucie</h6>  
+            </div>
+            <div class="element">
+                <div class="element1">
+                    <i class="fa fa-edit"></i>
+                    <span class="span_edit_pdf">Edit profile</span>
+                </div>
+                <div class="element1">
+                    <i class="fa fa-cog"></i>
+                    <span class="span_edit_pdf">Paramétre général</span>
+                </div>
+                <div class="element1">
+                    <i class="fa fa-history"></i>
+                    <span class="span_edit_pdf">Historique</span>
+                </div>
+            </div>
+            <hr>
+            <div class="element">
+                <div class="element1">
+                    <i class="fa fa-poll-h"></i>
+                    <span class="span_edit_pdf">Paramétre du compte</span>
+                </div>
+                <div class="element1">
+                    <i class="fa fa-trash-alt"></i>
+                    <span class="span_edit_pdf">Supprimer compte</span>
+                </div>
+            </div>
+            <hr>
+            <div class="element">
+                <div class="element1">
+                    <i class="fa fa-sign-out-alt"></i>
+                    <span class="span_edit_pdf">Se déconnecter</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- section notification -->
+    <div class="section_notif">
+        <div class="rows">
+            <div class="row1">
+                <h5>Notification</h5>
+                <span>Marquer comme tous lus</span>
+            </div>
+            <div class="row1">
+                <nav class="nav_row">
+                    <ul>
+                        <li>Recents</li>
+                        <li>Tous</li>
+                        <li>Archive</li>
+                    </ul>
+                </nav>
+                <div class="filter">
+                    <i class="fa fa-filter"></i>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+            </div>
+            <!-- <hr> -->
+            <div class="notif_message">
+                <div class="rows1">
+                    <div class="row2">
+                        <div class="img_row">
+                            <img src="./images/pdf.jpeg" alt="">
+                        </div>
+                    <div class="notif1">
+                        <h3>Randria Fetra <span class="span_notif"> vous a envoyé un message:</span></h3>
+                        <div class="cols">
+                            <span> <b>"Bonjour,puis avoir..."</b></span>
+                            <span>9h34</span>
+                        </div>
+                    </div> 
+                </div>
+            <!-- <hr> -->
+                <div class="rows1">
+                    <div class="row2">
+                        <div class="img_row">
+                            <img src="./images/pdf.jpeg" alt="">
+                        </div>
+                    <div class="notif1">
+                        <h3>Randria Fetra <span class="span_notif"> vous a envoyé un message:</span></h3>
+                        <div class="cols">
+                            <span> <b>"Vous pouvez l'envoyer"</b></span>
+                            <span>8h16</span>
+                        </div>
+                    </div> 
+                </div>
+            <!-- <hr> -->
+                <div class="rows1">
+                    <div class="row2">
+                        <div class="img_row">
+                            <img src="./images/pdf.jpeg" alt="">
+                            <div class="img_2nd">
+                                <img src="./images/img1.jpg" alt="">
+                           </div>
+                        </div>
+                    <div class="notif1">
+                        <h3>Mitia Rakotoarisoa et fifaliana<span class="span_notif"> vous a envoyé une invitation</span></h3>
+                        <div class="div_span">
+                            <span class="span_hours">17h34</span>
+                        </div>
+                    </div> 
+                </div>
+            <!-- <hr> -->
+                <div class="rows1">
+                    <div class="row2">
+                        <div class="img_row">
+                            <img src="../images/pdf.jpeg" alt="">
+                        </div>
+                    <div class="notif1">
+                            <span>Vous avez réçu le badge du meilleur influenceur</span><br>
+                            <div class="div_span">
+                                 <span class="span_hours">il y a 2 jours</span>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            <!-- <hr> -->
+            <div class="rows1">
+                <div class="ellipsis">
+                    <i class="fa fa-ellipsis-h"></i>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </header>
+    
+    <!-- section1 -->
+    <section class="section1">
+        <div class="paragraph1">
+            <p><span class="wedding_span">Wedding</span> vous organise le meilleur mariage de vos rêves.<br> Créons le décor qui célébrera votre amour.</p>
+            <div class="picture1">
+                <img src="./images/9c1e5a18-e484-427a-aac7-f61bbbf156f2.jpg" alt="">
+            </div>
+        </div>
+        <div class="paragraph2">
+            <div class="para">
+                <p>Séléctionner directement vos préférences en remplissant le champ ci-dessous.</p>
+                <div class="picture2">
+                    <img src="./images/heart.jpg" alt="">
+                </div>
+            </div>
+            <div class="champs_remplir">
+                <div class="input_container">
+                    <span  class="location_icon">
+                        <span class="location_text">
+                            Localisation <br>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <input type="text" placeholder="votre adresse" value="Analakely" class="input_localisation">
+                        </span>
+                    </span>
+                    <span class="span1_tiret"> | </span>
+                    <span>
+                        Date <br>
+                        <i class="far fa-calendar-alt"></i>
+                        <input type="date" class="date_input" value="2024-10-05">
+                    </span>
+                    <span class="time_range">
+                        <span class="span1_tiret"> | </span>
+                        <span class="star_time">
+                            Début heure <br>
+                            <i class="far fa-clock"></i>
+                            <input type="time" value="11:00">
+                        </span>
+                        <span class="span1_tiret"> | </span>
+                        <span class="end_time">
+                            Fin heure <br>
+                            <i class="far fa-clock"></i>
+                            <input type="time" value="21:00">
+                        </span>
+                    </span>
+                    <button class="search_button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <div class="picture3">
+                    <img src="./images/Arches & Mariage.jpg" alt="">
+                </div>
+            </div>
+            <div class="paragraph3">
+                <h6>Suivez nous sur nos plateformme</h6>
+                <div class="medias">
+                    <div class="youtube">
+                        <i class="fab fa-youtube"></i>
+                   </div>
+                   <div class="instagram">
+                       <i class="fab fa-instagram"></i>
+                   </div>
+                   <div class="tiktok">
+                       <i class="fab fa-tiktok"></i>
+                   </div>
+                   <div class="facebook">
+                       <i class="fab fa-facebook"></i>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nos organisateurs -->
+     <section class="section2">
+         <h2>Nos organisateurs</h2><br><br>
+        <div class="organisateurs">
+            <div class="slide_mpikarakara">
+                <div class="mpikarakara">
+                    <div class="box1_slide">
+                        <h3>retrouver <span>Alicia</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aliquid, dolorem laborum repellat pariatur voluptatem aperiam cum vel non inventore fugit amet molestias. Qui, rem. Architecto sunt necessitatibus eos dolore.</p>
+                        <div class="btn_plus">
+                            <button class="voir_plus">voir plus</button>
+                        </div>
+                    </div>
+                    <div class="box2_mpikarakara">
+                        <div class="picture4">
+                            <img src="./images/15.jpg" alt="">
+                        </div>
+                        <div class="prestations">
+                            <h5>ANDRIANOMENA Fy</h5><br>
+                            <div class="reservation_number">
+                                <div class="prestation">
+                                    <span class="span1">80</span>
+                                    <h3 class="h3_tittle">prestation</h3>
+                                </div>
+                                <div class="reservation">
+                                    <span class="span1">102</span>
+                                    <h3 class="h3_tittle">reservations</h3>
+                                </div>
+                                <div class="follower">
+                                    <span class="span1">10</span>
+                                    <h3 class="h3_tittle">followers</h3>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="slide_mpikarakara">
+                <div class="mpikarakara">
+                    <div class="box1_slide">
+                        <h3>retrouver <span>Alicia</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aliquid, dolorem laborum repellat pariatur voluptatem aperiam cum vel non inventore fugit amet molestias. Qui, rem. Architecto sunt necessitatibus eos dolore.</p>
+                        <div class="btn_plus">
+                            <button class="voir_plus">voir plus</button>
+                        </div>
+                    </div>
+                    <div class="box2_mpikarakara">
+                        <div class="picture4">
+                            <img src="./images/young-smart.jpg" alt="">
+                        </div>
+                        <div class="prestations">
+                            <h5>HERINIAINA Stephano</h5><br>
+                            <div class="reservation_number">
+                                <div class="prestation">
+                                    <span class="span1">90</span>
+                                    <h3 class="h3_tittle">prestation</h3>
+                                </div>
+                                <div class="reservation">
+                                    <span class="span1">100</span>
+                                    <h3 class="h3_tittle">reservations</h3>
+                                </div>
+                                <div class="follower">
+                                    <span class="span1">50</span>
+                                    <h3 class="h3_tittle">followers</h3>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+     </section>
+     
+     <!-- Nos forfaits -->
+      <section class="section3">
+        <div class="title">
+            <h2>Nos forfaits</h2><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, earum!</p><br>
+        </div>
+        <div class="forfaits">
+            <div class="forfait1">
+                <div class="number">
+                    <span class="span">01</span>
+                    <h4>journée de coordination</h4>
+                    <div class="btn_voir_plus1">
+                        <a href="../html/coordination.html">
+                            <button class="voir_plus">voir plus</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="number1">
+                    <span class="span">02</span>
+                    <h4>organisation partielle</h4>
+                    <div class="btn_voir_plus1">
+                        <a href="../html/orgpartielle.html">
+                            <button class="voir_plus">voir plus</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="number2">
+                    <span class="span">03</span>
+                    <h4>organisation complete</h4>
+                    <div class="orga_complete">
+                        <i class="fa fa-check"> Lorem ipsum dolor sit amet consectetu</i><br><br>
+                        <i class="fa fa-check"> Lorem ipsum dolor sit amet consectetu</i><br><br>
+                        <i class="fa fa-check"> Lorem ipsum dolor sit amet consectetu</i><br><br>
+                        <i class="fa fa-check"> Lorem ipsum dolor sit amet </i>
+                    </div>
+                    <div class="btn_voir_plus1">
+                        <a href="../html/orgacomplete.html">
+                            <button class="voir_plus">voir plus</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+    <!-- vos temoignages -->
+    <section class="section4">
+        <h2>Vos témoignages</h2><br><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, earum!</p><br>
+        <div class="section4_testimonials">
+            <div class="testimonials">
+                <div class="slide">
+                    <!-- <div class="chevron">
+                        <i class="fa fa-chevron-left"></i>
+                    </div> -->
+                    <div class="box2_slide">
+                        <div class="picture5">
+                            <img src="./images/img1.JPG">
+                        </div>
+                    </div>
+                    <div class="box1_slider">
+                        <span class="quatation_marks1">
+                            <i class="fa fa-quote-left"></i>
+                        </span>
+                        <h3>Hery & Sitraka</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aliquid, dolorem laborum repellat pariatur voluptatem aperiam cum vel non inventore fugit amet molestias. Qui, rem. Architecto sunt necessitatibus eos dolore.</p>
+                        <span class="quatation_marks2">
+                            <i class="fa fa-quote-right"></i>
+                        </span>
+                        
+                    </div>
+                    <!-- <div class="chevron">
+                        <i class="fa fa-chevron-right"></i>
+                    </div> -->
+                </div>
+            </div>
+            <div class="testimonials">
+                <div class="slide">
+                   
+                    <div class="box2_slide">
+                        <div class="picture5">
+                            <img src="./images/../images/heart.jpg">
+                        </div>
+                    </div>
+                    <div class="box1_slider">
+                        <span class="quatation_marks1">
+                            <i class="fa fa-quote-left"></i>
+                        </span>
+                        <h3>Hery & Sitraka</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aliquid, dolorem laborum repellat pariatur voluptatem aperiam cum vel non inventore fugit amet molestias. Qui, rem. Architecto sunt necessitatibus eos dolore.</p>
+                        <span class="quatation_marks2">
+                            <i class="fa fa-quote-right"></i>
+                        </span>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Histoires de mariage -->
+     <section class="section5">
+        <div class="slider_history">
+            <h2>Histoires de mariage</h2><br><br>
+            <div class="slide1">
+                <!-- <div class="chevron">
+                    <i class="fa fa-chevron-left"></i>
+                </div> -->
+
+                <div class="slider_slick">
+                    <div class="box2_slider">
+                        <div class="picture6">
+                            <img src="./images/Arches & Mariage.jpg">
+                            <button class="see_more">Voir plus</button>
+                            <h6>Njaka & Rina</h6>
+                        </div>
+                        <div class="picture6">
+                            <img src="./images/heart.jpg">
+                            <button class="see_more">Voir plus</button>
+                            <h6>Salohy & Tina</h6>
+                        </div>
+                        <div class="picture6">
+                            <img src="./images/9c1e5a18-e484-427a-aac7-f61bbbf156f2.jpg">
+                            <button class="see_more">Voir plus</button>
+                            <h6>Tsiky & Rado</h6>
+                        </div>
+                        <div class="picture6">
+                            <img src="./images/b32d133a-bd51-4c1b-bac0-51412a5e6b45.jpg">
+                            <button class="see_more">Voir plus</button>
+                            <h6>Fetra & Sarobidy</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="chevron">
+                <i class="fa fa-chevron-right"></i>
+            </div> -->
+        </div>
+     </section>
+
+     <!-- fin section -->
+
+     <!-- SECTION6 -->
+
+      <section class="section6">
+        <div class="devis">
+            <div class="box1_devis">
+                Besoins d'un <span>devis</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aliquid, dolorem laborum repellat pariatur voluptatem aperiam cum vel non inventore fugit amet molestias. Qui, rem. Architecto sunt necessitatibus eos dolore.</p>
+                <div class="btn_devis">
+                    <a href="./html/demande.php">
+                        <button class="demande_devis">demande de devis</button>
+                    </a>
+                </div>
+            </div>
+            <div class="box2_slide">
+                <div class="picture7">
+                    <img src="./images/wedding_planner.JPG" alt="">
+                    <div class="infos_devis">
+                        <h4>Accompagnement avec des professionels</h4><br><br>
+                        <p>Un seul formulaire pour chaque préstation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+     <footer>
+        <div class="footer">
+            <div class="box1_footer">
+                <div class="logo">
+                    <h2><i class="fa fa-infinity"></i>wedding</h2><br><br>
+                </div>
+                <p>Envoyer nous votre adresse email pour qu'on puisse vous publier les  <span class="offre">offres</span> & <span class="service">services</span> à ne pas rater!</p><br>
+                <form class="box_email">
+                    <input type="email" placeholder="votre adresse email">
+                    <button class="btn_send"><i class="fa fa-arrow-right"></i></button>
+                </form>
+            </div>
+            <div class="box2_footer">
+                <div class="link">
+                    A propos <br><br>
+                    <ul class="liens">
+                        <li>Histoires</li>
+                        <li>Clients</li>
+                        <li>Témoignages</li>
+                    </ul>
+                </div>
+                <div class="link">
+                Entreprise<br><br>
+                    <ul class="liens">
+                        <li>Nos services</li>
+                        <li>Nos équipes</li>
+                        <li>Notre culture</li>
+                        
+                    </ul>
+                </div>
+                <div class="link">
+                Contact<br><br>
+                    <ul class="liens">
+                        <li>+126 34 56 768 90</li>
+                        <li>Weddingmada@gmail.com</li>
+                        <li>Manjakaray route vers Mascar</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        <hr>
+        <div class="reseaux_sociaux">
+            <div class="youtube">
+                 <i class="fab fa-youtube"></i>
+            </div>
+            <div class="instagram">
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div class="tiktok">
+                <i class="fab fa-tiktok"></i>
+            </div>
+            <div class="facebook">
+                <i class="fab fa-facebook"></i>
+            </div>
+        </div>
+    </footer>
+    <script src="js/inscrit.js"></script>
+    <script src="./js/jquery-1.11.0.min.js"></script>
+    <script src="./js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
+</body>
+</html>

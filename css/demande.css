@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../css/font/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: poppins1;
+    src: url(../css/font/Poppins-Regular.ttf);
+}
+.section_devis{
+    width: 50vw;
+    margin: 0vw auto;
+    border-radius: .4vw;
+    border: solid .1vw grey;
+    box-shadow: 0vw 0vw 3vw black;
+}
+.section_devis h2{
+    font-size: 1.3vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: 2vw;
+    font-family: poppins;
+
+}
+.section_devis h3{
+    font-family: poppins;
+    font-size: 1vw;
+}
+.section_devis p{
+    font-family: poppins1;
+    font-size: 1vw;
+}
+.title_demande{
+    padding: 2vw;
+}
+.formulaire_devis{
+    font-family: poppins1;
+    padding: 1vw;
+    font-size: .8vw;
+}
+
+.input_name_devis, .input_tel_email, .date_prevu{
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea{
+    width: 100%;
+}
+input{
+    width: 16vw;
+
+}
+.input_phone{
+    width: 10.5vw;
+}
+.input_budget{
+    width: 10.6vw;
+}
+.input_fmg{
+    width: 5vw;
+    text-align: center;
+    
+}
+input, select, textarea{
+    background:#f6f3f3;
+    padding: 0.7vw;
+    border-radius: .5vw;
+    border: none;
+}
+.service_existe{
+    display: flex;
+    justify-content: space-between;
+}
+.input_radio1{
+    display: flex;
+    color:rgba(0, 0, 0, 0.649);
+
+}
+.input_radio1 input{
+    width: 1vw;
+}
+.label_confirmer{
+    width: 15vw;
+    display: flex;
+    color:rgba(0, 0, 0, 0.649);
+    text-align: left;
+}
+.label_confirmer input{
+    width: 1vw;
+}
+.soumettre{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+}
+.btn_envoyer_devis{
+    width: 5vw;
+    border:solid .1vw deeppink;
+    border-radius: .5vw;
+    color: white;
+    background: deeppink;
+    padding: .5vw;
+}
+
+

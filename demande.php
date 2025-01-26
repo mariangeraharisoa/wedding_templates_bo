@@ -1,0 +1,113 @@
+<?php
+     require "./functions/function.php";
+     $data_accueil =  get_accueil();
+     // var_dump($data_accueil);
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demande de devis</title>
+    <link rel="stylesheet" href="../css/demande.css">
+</head>
+<body>
+    <section class="section_devis">
+        <h2>Demande de devis</h2>
+        <div class="title_demande">
+            <div class="incitation">
+                <h3>Details basic</h3><br>
+                <p>Veuillez remplir les champs ci-dessous pour que nous puissions vous aider à plannifier votre résérvation.</p>
+            </div>
+            <form class="formulaire_devis">
+                <div class="input_name_devis">
+                    <div class="input1_devis">
+                        <label for="">Nom & prénom</label><br>
+                        <input type="text"><br>
+                    </div>
+                    <div class="input1_devis">
+                        <label for="">Adresse</label><br>
+                        <input type="text">
+                        <br><br>
+                    </div>
+                </div>
+    
+                <div class="input_tel_email">
+                    <div class="input1">
+                        <label for="">E-mail</label><br>
+                        <input type="email">
+                    </div>
+                    <div class="input1">
+                        <label for="">Téléphone</label><br>
+                        <select>
+                            <option value="">+261</option>
+                            <option value="">+177</option>
+                            <option value="">+320</option>
+                        </select>
+                        <input type="number" class="input_phone">
+                    </div>
+                </div>
+                    <br><br>
+
+                <h3>Formulaire d'éstimation</h3><br><br>
+
+                <div class="date_prevu">
+                    <div class="input1">
+                        <label for="">Date prévu</label><br>
+                        <input type="date">
+                    </div>
+                    <div class="input1">
+                        <label for="">Nombre d'invités</label><br>
+                        <input type="number">
+                    </div>
+                </div>
+                <br><br>
+                <div class="box_devis_comment">
+                    <div class="input1">
+                        <label for="">Budget estimatoire</label><br>
+                        <input type="text" class="input_budget">
+                        <input type="text" placeholder="FMG" class="input_fmg">
+                    </div>
+                    <br><br>
+                    <div class="commentaire">
+                        <textarea cols="40" rows="5" placeholder="Parlez-nous de votre mariage"></textarea>
+                    </div>
+                    <br><br>
+
+                    <div class="services_acccompanements">
+                        Choisissez à nos services d'accompagnement <br><br>
+                        <div class="service_existe">
+                            <div class="input_radio1">
+                                <input type="radio" name="" id="">
+                                <label for=""> Journée de coordination</label>
+                            </div>
+                            <div class="input_radio1">
+                                <input type="radio" name="" id="">
+                                <label for=""> Organisation partielle</label>
+                            </div>
+                            <div class="input_radio1">
+                                <input type="radio" name="" id="">
+                                <label for=""> Organisation complète</label>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="free_tag">
+                        <label for="">Comment avez-vous entendu parler de nous?</label><br>
+                        <input type="">
+                    </div>
+                </div>
+                <br><br>
+                Soumettre votre requête <br><br>
+                <div class="soumettre">
+                    <div class="label_confirmer">
+                        <input type="checkbox" name="" id="">
+                        <label class="label_confirmer">Veuillez cocher pour confirmer votre demande</label>
+                    </div>
+                    <button class="btn_envoyer_devis">Envoyer</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
