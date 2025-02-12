@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Journée de coordination</title>
     <link rel="stylesheet" href="css/coordinate.css">
-    <link rel="stylesheet" href="../css/slick.css">
-    <link rel="stylesheet" href="../css/slick-theme.css">
-    <link rel="stylesheet" href="../css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
 </head>
 <body>
     <header>
@@ -18,7 +18,7 @@
             <div class="nav_bar">
                     <nav> 
                         <ul>
-                            <a href=""><li class="link_home">Accueil</li></a>
+                            <a href="inscrit.html"><li class="link_home">Accueil</li></a>
                             <a href=""><li>A propos</li></a>
                             <a href=""><li>Services</li></a>
                             <a href=""><li>Blog</li></a>
@@ -32,7 +32,7 @@
                     <div class="litle_point"></div>
                 </div>
                 <div class="pdf">
-                    <img src="../images/fille.JPG" alt="">
+                    <img src="images/fille.JPG" alt="">
                     <div class="litle_point_pdf"></div>
                 </div>
                 <div class="tasks">
@@ -50,46 +50,33 @@
                     </p>
                 </div>
                 <h6>Découvrez en vidéo les séances de coordination</h6>
+
                 <div class="slide_coordinate">
-                    
-<!-- slider slick -->
                     <div class="slider_slick5">
-                        <div class="box_slider_coordinate">
-                            <div class="picture9">
-                                <img src="../images/Arches & Mariage.jpg" class="class_img1">
+                        <div class="image-list">
+                            <div class="img_slide">
+                                <img src="images/Arches & Mariage.jpg" alt="Image 1" class="thumbnail" onclick="displayImage('images/Arches & Mariage.jpg')">
                             </div>
-                            <div class="picture9">
-                                <img src="../images/heart.jpg" class="class_img2">
+                            <div class="img_slide">
+                                <img src="images/heart.jpg" alt="Image 1" class="thumbnail" onclick="displayImage('images/heart.jpg')">
                             </div>
-                            <div class="picture9">
-                                <img src="../images/9c1e5a18-e484-427a-aac7-f61bbbf156f2.jpg" class="class_img3">
+
+                            <div class="img_slide">
+                                <img src="images/9c1e5a18-e484-427a-aac7-f61bbbf156f2.jpg" alt="Image 1" class="thumbnail" onclick="displayImage('images/9c1e5a18-e484-427a-aac7-f61bbbf156f2.jpg')">
                             </div>
-                            <div class="picture9">
-                                <img src="../images/Arches & Mariage.jpg" class="class_img4">
+
+                            <div class="img_slide">
+                                <img src="images/Arches & Mariage.jpg" alt="Image 1" class="thumbnail" onclick="displayImage('images/Arches & Mariage.jpg')">
                             </div>
-                            <div class="picture9">
-                                <img src="../images/heart.jpg" class="class_img5">
+
+                            <div class="img_slide">
+                                <img src="images/mode13.jpg" alt="Image 1" class="thumbnail" onclick="displayImage('images/mode13.jpg')">
                             </div>
                         </div>
+                        <div class="main_image">
+                             <img id="displayed-image" src="images/Arches & Mariage.jpg" class="a">
+                        </div>
                     </div>
-<!-- fin slide -->
-                </div>
-            </div>
-            <div class="side2">
-                <div class="class_img6">
-                     <img src="../images/Arches & Mariage.jpg" class="a">
-                </div>
-                <div class="class_img7">
-                    <img src="../images/heart.jpg" class="b">
-                </div>
-                <div class="class_img8" class="c">
-                    <img src="../images/9c1e5a18-e484-427a-aac7-f61bbbf156f2.jpg">
-                </div>
-                <div class="class_img9">
-                    <img src="../images/Arches & Mariage.jpg" class="d">
-                </div>
-                <div class="class_img10">
-                    <img src="../images/heart.jpg" class="e">
                 </div>
             </div>
         </div>
@@ -203,9 +190,10 @@
         </div>
     </footer>
 
-    <script src="../js/jquery-1.11.0.min.js"></script>
-    <script src="../js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="../js/slick.min.js"></script>
-    <script src="../js/index.js"></script>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/coordinate.js"></script>
 </body>
 </html>

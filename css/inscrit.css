@@ -176,7 +176,7 @@ p{
     margin: 0vw auto;
     position: absolute;
     right: -3vw;
-    display:  block;
+    display:  none;
     z-index: 100;
 
 }

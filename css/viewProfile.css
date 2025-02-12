@@ -171,7 +171,7 @@
 }
 
 .step2{
-    width: 6vw;
+    width: 16vw;
     height:16vw;
     font-family: poppins1;
 }
@@ -182,5 +182,5 @@
     object-fit: cover;
 }
 .slid9{
-    padding: 2vw;
+    padding: 0vw;
 }

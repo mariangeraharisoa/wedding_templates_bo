@@ -1,10 +1,10 @@
 
 // view profile
-$('.essential_step1').slick({
+$('.slid9').slick({
     autoplay: false,
     speed: 250,
-    slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToShow: 3,
+    slidesToScroll: 2,
     arrows: true,
     infinite: false,
     dots:true,
@@ -93,3 +93,26 @@ $('.section4_testimonials').slick({
         },
   ],
 });
+// page coordination
+// $('.slide_slide').slick({
+//   autoplay: false,
+//   speed: 250,
+//   slidesToShow: 2,
+//   slidesToScroll: 2,
+//   arrows: true,
+//   infinite: true,
+//   dots:true,
+//   responsive: [
+//         {
+//           breakpoint: 900,
+//           settings: {
+//           slidesToShow: 3,
+//           slidesToScroll:1,
+//           },
+//         },
+//         {
+//           breakpoint: 768,
+//           settings: 'unslick',
+//         },
+//   ],
+// });

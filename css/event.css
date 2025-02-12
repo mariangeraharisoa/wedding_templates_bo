@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@font-face {
+    font-family:poppins1 ;
+    src: url(../css/font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family:poppins2;
+    src: url(../css/font/Poppins-Black.ttf);
+}
+h2{
+    font-family:poppins2;
+    padding: 2vw;
+}
+.table1{
+    border: 1px solid deeppink;
+    border-collapse: collapse;
+    width: 76vw;
+}
+th{
+    color: deeppink;
+}
+th, td{
+    text-align: center;
+     padding: 1vw;
+     text-transform: capitalize;
+     width: 6vw;
+    font-family:poppins1;
+
+}
